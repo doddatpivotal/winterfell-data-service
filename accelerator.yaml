@@ -15,3 +15,6 @@ engine:
       substitutions:
       - text: winterfell-data-service
         with: "#artifactId"
+    - type: RewritePath
+      regex: (.*)winterfelldataservice(.*)
+      rewriteTo: "#g1 + #packageName + #g2" # SpEL expression. You can use '#g1' and '#g2' to reference 'match groups'
