@@ -2,6 +2,7 @@
 
 Includes following standards for data services:
 
+- Java 11 Spring Boot Standard Version
 - Coding Style Enforced by Checkstyle Using Google's Java Standard
 - FlyWay DB
 - Actuator
