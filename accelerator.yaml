@@ -20,8 +20,6 @@ engine:
       substitutions:
       - text: WinterfellDataService
         with: "#pascalCaseName"
-    - type: ReplaceText
-      substitutions:
       - text: winterfell-data-service
         with: "#artifactId"
     - type: RewritePath
