@@ -6,6 +6,9 @@ accelerator:
   - java
   - spring
   options:
+  - name: pascalCaseName
+    dataType: string
+    inputType: text
 engine:
   merge:
   - include: [ "**" ]
@@ -21,4 +24,4 @@ engine:
       rewriteTo: "#g1 + #artifactId + #g2" # SpEL expression. You can use '#g1' and '#g2' to reference 'match groups'
     - type: RewritePath
       regex: (.*)WinterfellDataService(.*)
-      rewriteTo: "#g1 + #artifactId + #g2" # SpEL expression. You can use '#g1' and '#g2' to reference 'match groups'
+      rewriteTo: "#g1 + #pascalCaseName + #g2" # SpEL expression. You can use '#g1' and '#g2' to reference 'match groups'
