@@ -14,7 +14,7 @@ accelerator:
     defaultValue: ''
 engine:
   merge:
-  - include: [ "**/*" ]
+  - include: [ ".mvn/**/*" ]
   - exclude: [ ".mvn/**/*" ]
     chain:
     - type: ReplaceText
