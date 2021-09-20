@@ -7,8 +7,11 @@ accelerator:
   - spring
   options:
   - name: pascalCaseName
+    label: Pascal Case of Name
+    display: true
     dataType: string
     inputType: text
+    defaultValue: ''
 engine:
   merge:
   - include: [ "**" ]
