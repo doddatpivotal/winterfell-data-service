@@ -21,6 +21,8 @@ engine:
       substitutions:
       - text: WinterfellDataService
         with: "#pascalCaseName"
+      - text: winterfelldataservice
+        with: "#artifactId"
       - text: winterfell-data-service
         with: "#artifactId"
     - type: RewritePath
