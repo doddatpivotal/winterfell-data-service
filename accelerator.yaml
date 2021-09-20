@@ -15,6 +15,7 @@ accelerator:
 engine:
   merge:
   - include: [ "**" ]
+  - exclude: [ ".mvn/**" ]
     chain:
     - type: ReplaceText
       substitutions:
