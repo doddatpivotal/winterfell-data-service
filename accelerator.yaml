@@ -21,7 +21,7 @@ engine:
       - text: winterfell-data-service
         with: "#artifactId"
       - text: WinterfellDataService
-        with: "#artifactId"
+        with: "#pascalCaseName"
     - type: RewritePath
       regex: (.*)winterfelldataservice(.*)
       rewriteTo: "#g1 + #artifactId + #g2" # SpEL expression. You can use '#g1' and '#g2' to reference 'match groups'
